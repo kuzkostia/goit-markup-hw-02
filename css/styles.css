@@ -1,0 +1,123 @@
+/* Головний колір фону: #F5F5F5 */
+/* Додатковий колір фону: #2F303A */
+/* Додатковий колір фону: #F5F4FA*/
+
+:root{
+    --primary-color-text: #757575;
+    --title-color: #212121;
+    --accent: #2196F3;
+    --secondary-bg-color: #2F303A;
+    --white-color:#ffffff;
+}
+
+body{
+    background-color: var(--white-color);
+    color: var(--primary-color-text);
+    font-family: 'Roboto', sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+.logoweb{
+    color:var(--accent);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logostudio{
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+/*site-nav*/
+
+.site-nav .link{
+    color:var(--title-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+}
+
+.site-contacts a{
+    color:var(--primary-color-text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.site-contacts a:hover,
+.site-contacts a:focus{
+    color:var(--accent);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+
+/*Hero*/
+.hero{
+    background-color: var(--secondary-bg-color);
+}
+.hero-title{
+    color:var(--white-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+/*Section*/
+.section-title{
+    color: var(--title-color);
+}
+
+
+.section-list .title{
+    color: var(--title-color);
+}
+
+/*Footer*/
+
+.address{
+    color: #ffffff;
+    background-color: var(--secondary-bg-color);
+}
+
+.footer-contact a{
+    color: rgba(255, 255, 255, 0.6);
+    background-color: var(--secondary-bg-color);
+}
