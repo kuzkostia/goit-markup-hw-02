@@ -35,7 +35,7 @@ body {
   margin: -1px;
 }
 
-/*Logo*/
+/*------Logo------*/
 .logo {
   color: var(--accent);
   font-family: "Raleway";
@@ -58,7 +58,7 @@ body {
   line-height: 1.19;
 }
 
-/*Header nav*/
+/*------Header nav------*/
 
 .header-nav .link {
   color: var(--title-color);
@@ -71,10 +71,6 @@ body {
 .header-nav .link:hover,
 .header-nav .link:focus {
   color: var(--accent);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .header-nav .link.current {
@@ -92,13 +88,9 @@ body {
 .header-contacts .link:hover,
 .header-contacts .link:focus {
   color: var(--accent);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
-/*Section-title*/
+/*------Section-title------*/
 .section-title {
   color: var(--title-color);
   font-weight: 700;
@@ -106,7 +98,7 @@ body {
   line-height: 1.16;
 }
 
-/*Hero*/
+/*------Hero------*/
 .hero {
   background-color: var(--secondary-bg-color);
 }
@@ -119,7 +111,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
 .hero-button {
@@ -130,9 +121,10 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
-/*Benefits-list*/
+/*------Benefits-list------*/
 .benefits-list .title {
   color: var(--title-color);
   font-size: 14px;
@@ -146,7 +138,7 @@ body {
   line-height: 1.71;
 }
 
-/*Members-list*/
+/*------Members-list------*/
 .members-list .member {
   color: var(--title-color);
   font-size: 16px;
@@ -159,7 +151,7 @@ body {
   line-height: 1.18;
 }
 
-/*Footer*/
+/*------Footer------*/
 .footer {
   background-color: var(--secondary-bg-color);
 }
@@ -180,16 +172,16 @@ body {
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
   color: var(--accent);
-  font-size: 14px;
-  line-height: 1.71;
 }
 
-/*Portfolio*/
+/*------Portfolio------*/
+
 .buttons-list .button {
   color: var(--black-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
 }
 
 .buttons-list .button:hover,
