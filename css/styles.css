@@ -3,8 +3,10 @@
   --title-color: #212121;
   --accent: #2196f3;
   --secondary-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
   --white-color: #ffffff;
   --black-color: #000000;
+  --hero-button-bg: #188CE8;
 }
 
 body {
@@ -124,6 +126,11 @@ body {
   cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus{
+  background-color: var(--hero-button-bg);
+}
+
 /*------Benefits-list------*/
 .benefits-list .title {
   color: var(--title-color);
@@ -151,9 +158,21 @@ body {
   line-height: 1.18;
 }
 
+.team{
+  background-color: var(--third-bg-color);
+}
+
+.members-item{
+  background-color: var(--white-color);
+}
+
 /*------Footer------*/
 .footer {
   background-color: var(--secondary-bg-color);
+}
+
+.footer-address {
+  font-style: normal;
 }
 
 .footer-contacts .link {
@@ -164,7 +183,6 @@ body {
 
 .footer-contacts .address {
   color: var(--white-color);
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -176,8 +194,14 @@ body {
 
 /*------Portfolio------*/
 
+.main-section {
+  background-color: var(--third-bg-color);
+}
+
 .buttons-list .button {
   color: var(--black-color);
+  background-color:var(--third-bg-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -204,4 +228,8 @@ body {
 .project-type {
   font-size: 16px;
   line-height: 1.87;
+}
+
+.projects-item {
+  background-color: var(--white-color);
 }
